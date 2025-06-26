@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Portfolio - TEA Steven</title>
+</head>
+
+<body>
+<header>
+        <div class="mt-5">
+        <ul class="flex justify-around">
+            <li>
+            <a class="font-bold text-2xl" href="./index.php">_TS</a>
+            </li>
+            <li>
+            <a class="text-lg text-black-500 hover:underline mr-4" href="./à_propos.php">À propos</a>
+            <a class="text-lg text-black500 hover:underline" href="./contact.php">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </header>
+    <div>
+        <p class="txt-defilant">
+            Spotifried Chicken
+            Spotifried Chicken
+            Spotifried Chicken
+            Spotifried Chicken
+            Spotifried Chicken
+            Spotifried Chicken
+            Spotifried Chicken
+        </p>
+    </div>
+    <div class="scroll-container">
+        <section class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Technologies utilisées</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-4 text-left">
+                        <span class="font-bold text-lg text-black-400 flex justify-center mb-2">Frontend</span>
+                        <ul class="list-disc list-inside ml-6 text-gray-600 space-y-4">
+                            <li><span class="font-semibold">React:</span> Framework JavaScript pour l'interface utilisateur</li>
+                            <li><span class="font-semibold">Tailwind:</span> Styles et animations</li>
+                            <li><span class="font-semibold">React Router:</span> Navigation entre pages</li>
+                            <li><span class="font-semibold">Fetch:</span> Requêtes API</li>
+                        </ul>
+                        <div class="mt-4">
+                            <span class="font-bold text-lg text-black-400 flex justify-center mb-2">Backend</span>
+                        </div>
+                        <ul class="list-disc list-inside ml-6 text-gray-600 space-y-4">
+                            <li><span class="font-semibold">API REST:</span> Fournie via Docker</li>
+                            <li><span class="font-semibold">Docker:</span> Conteneurisation de l'API</li>
+                            <li><span class="font-semibold">JSON:</span> Format d'échange de données</li>
+                            <li><span class="font-semibold">Pagination:</span> Gestion des grandes listes</li>
+                            <li><span class="font-semibold">Recherche:</span> Système de filtrage multi-critères</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Fonctionnalités principales</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-4 text-left">
+                        <li>Listing albums : Affichage paginé avec navigation vers détails</li>
+                        <li>Détail album : Informations complètes + liste des pistes</li>
+                        <li>Listing artistes : Navigation par artiste avec pagination</li>
+                        <li>Détail artiste : Albums de l'artiste sélectionné</li>
+                        <li>Listing genres : Catégorisation musicale</li>
+                        <li>Détail genre : Albums par genre musical</li>
+                        <li>Recherche universelle : Albums, artistes et genres</li>
+                        <li>Résultats paginés : Navigation fluide dans les résultats</li>
+                        <li>Page d'accueil : Sélection aléatoire d'albums</li>
+                        <li>Navigation : Liens croisés entre contenus</li>
+                        <li>Connexion / CRUD</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Durée de production</h2>
+                    <p class="text-gray-700 text-lg">1 semaines</p>
+                </div>
+            </div>
+            <div class="mt-8 flex justify-center">
+                <a href="https://github.com/stvntea/Spotifried-Chicken" target="_blank" class="inline-block bg-gray-800 text-white px-3 py-1 rounded-lg shadow hover:bg-gray-700 transition">
+                    Voir le projet sur GitHub
+                </a>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-gray-400 text-white py-6">
+        <p class="text-xl font-semibold text-center mb-4">_CONTACT : anthonysteven.tea@gmail.com</p>
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com/stvntea" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/steven-tea-71b20a166/" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

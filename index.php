@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Portfolio - TEA Steven</title>
+</head>
+
+<body>
+    <header>
+        <div class="mt-5">
+            <ul class="flex justify-around">
+                <li>
+                    <a class="font-bold text-2xl" href="./index.php">_TS</a>
+                </li>
+                <li>
+                    <a class="text-lg text-black-500 hover:underline mr-4" href="./à_propos.php">À propos</a>
+                    <a class="text-lg text-black500 hover:underline" href="./contact.php">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <p class="txt-defilant">
+            TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven TEA Steven
+        </p>
+    </div>
+    <div class="flex justify-center mt-10">
+        <p class="text-4xl font-bold">Full-stack Developer</p>
+    </div>
+    <div class="projet">
+        <p class="text-white text-2xl p-10 text-center">Je code comme je prépare mon thé : avec précision et une touche de créativité.</p>
+    </div>
+    </div>
+    <section class="scroll-container">
+        <div class="scroll-element js-scroll slide-left">
+            <a href="./snapchoc.php">
+                <img src="./assets/snapchoc.png" alt="snapchoc img" class="w-full h-auto">
+            </a>
+
+        </div>
+        <div class="scroll-caption">
+            <p class="text-4xl font-bold text-white" style="font-family: 'Switzer', sans-serif;">SNAPCHOC</p>
+            <a href="./snapchoc.php" class="text-white">Voir en détail</a>
+
+            <div class="flex justify-center items-center h-full text-center text-3xl text-white">
+                Snapchoc : Clone de Snapchat développé en duo avec React Native, reproduisant les fonctionnalités principales (photo/galerie, envoi temporisé, suppression automatique après visualisation).
+            </div>
+        </div>
+    </section>
+    <section class="scroll-container">
+        <div class="scroll-element js-scroll slide-right">
+            <a href="./quizzeazy.php">
+                <img src="./assets/quizzeazy.png" alt="quizzeazy" class="w-full h-auto">
+            </a>
+        </div>
+        <div class="scroll-caption">
+            <p class="text-4xl font-bold text-white">QUIZZEAZY</p>
+            <a href="./quizzeazy.php" class="text-white">Voir en détail</a>
+
+            <div class="flex justify-center items-center h-full text-center text-3xl text-white">
+                QUIZZEAZY : Plateforme web PHP/Symfony de quiz par catégories développée en équipe de quatre, intégrant inscription avec validation email, gestion des scores/historiques et panel admin avec analytics.
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div class="scroll-element js-scroll slide-left">
+            <a href="./spotifried.php">
+                <img src="./assets/My_spotify.png" alt="my_spotify project" class="w-full h-auto">
+            </a>
+        </div>
+        <div class="scroll-caption">
+            <p class="text-4xl font-bold text-white">Spotifried Chicken</p>
+            <a href="./spotifried.php" class="text-white">Voir en détail</a>
+
+            <div class="flex justify-center items-center h-full text-center text-3xl text-white">
+                Spotifried Chicken : Application web de streaming musical développée en duo, reproduisant les fonctionnalités principales de Spotify avec navigation dans une bibliothèque complète (albums, artistes, genres) et lecture de pistes audio
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div class="scroll-element js-scroll slide-right">
+            <a href="./twitter_academie.php">
+                <img src="./assets/My_twitter.png" alt="my_twitter project" class="w-full h-auto">
+            </a>
+        </div>
+        <div class="scroll-caption">
+            <p class="text-4xl font-bold text-white">TWEET_ACADEMIE</p>
+            <a href="./twitter_academie.php" class="text-white">Voir en détail</a>
+
+            <div class="flex justify-center items-center h-full text-center text-3xl text-white">
+                Tweet_academie : L'application reproduit fidèlement les fonctionnalités principales de Twitter avec une interface entièrement responsive s'adaptant à toutes les résolutions d'écran
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div class="scroll-element js-scroll slide-left">
+            <a href="./ha5i.php">
+                <img src="./assets/H5AI.png" alt="h5ai project" class="w-full h-auto">
+            </a>
+        </div>
+        <div class="scroll-caption">
+            <p class="text-4xl font-bold text-white">MY_H5AI</p>
+            <a href="./ha5i.php" class="text-white">Voir en détail</a>
+
+            <div class="flex justify-center items-center h-full text-center text-3xl text-white">
+                Clone h5ai : Reproduction en duo de l'indexeur de fichiers h5ai, créant une interface web dynamique pour naviguer dans l'arborescence serveur avec affichage des métadonnées, recherche et tri.
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-400 text-white py-6">
+        <p class="text-xl font-semibold text-center mb-4">_CONTACT : anthonysteven.tea@gmail.com</p>
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com/stvntea" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/steven-tea-71b20a166/" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

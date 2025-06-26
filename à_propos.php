@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Portfolio - TEA Steven</title>
+</head>
+<body>
+<header>
+        <div class="mt-5">
+        <ul class="flex justify-around">
+            <li>
+            <a class="font-bold text-2xl" href="./index.php">_TS</a>
+            </li>
+            <li>
+            <a class="text-lg text-black-500 hover:underline mr-4" href="./à_propos.php">À propos</a>
+            <a class="text-lg text-black500 hover:underline" href="./contact.php">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </header>
+    <div>
+        <p class="txt-defilant">
+            SPILL THE TEA   SPILL THE TEA   SPILL THE TEA   SPILL THE TEA   SPILL THE TEA   SPILL THE TEA   SPILL THE TEA   SPILL THE TEA       
+        </p>
+    </div>
+    <div>
+        <section class="about-section py-16 px-8 bg-gray-100 scroll-container">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <img src="./assets/pp-portfolio.png" alt="Photo de profil" class="rounded-full mx-auto w-56 h-56 object-cover shadow-lg border-4 border-gray-300">
+                    </div>
+                    <div class="md:w-1/2 md:pl-10">
+                        <h2 class="text-3xl font-bold text-gray-100 mb-4">À propos de moi</h2>
+                        <p class="text-lg leading-relaxed text-gray-100">
+                            Bonjour ! Je m'appelle Steven, un développeur fullstack motivé et passionné par le développement web. 
+                            Avec des compétences en PHP, JavaScript, et des frameworks comme React et autres en cours, je suis à la recherche d'une alternance pour continuer à apprendre et contribuer à des projets concrets.
+                        </p>
+                        <p class="text-lg leading-relaxed text-gray-100 mt-4">
+                            Mon objectif est de développer des solutions innovantes et performantes tout en collaborant avec des équipes dynamiques. 
+                            Je suis particulièrement intéressé par les projets qui allient créativité et technologie pour offrir des expériences utilisateur de qualité.
+                        </p>
+                        <p class="text-lg leading-relaxed text-gray-100 mt-4">
+                            Toujours curieux et désireux de progresser, je suis prêt à relever de nouveaux défis et à m'investir pleinement dans une entreprise qui partage ma passion pour le développement web.
+                        </p>
+                        <div class="mt-6">
+                            <a href="./contact.php" class="bg-white text-black px-6 py-3 rounded-lg shadow-md hover:bg-black hover:text-white transition duration-300">
+                                Me Contacter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-gray-400 text-white py-6">
+        <p class="text-xl font-semibold text-center mb-4">_CONTACT : anthonysteven.tea@gmail.com</p>
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com/stvntea" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/steven-tea-71b20a166/" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

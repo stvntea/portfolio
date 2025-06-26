@@ -1,0 +1,183 @@
+Cahier des charges - Portfolio de Steven TEA
+1. Présentation du projet
+1.1 Contexte
+Ce portfolio a pour objectif de présenter les compétences et projets de Steven TEA, développeur full-stack, afin de mettre en valeur son expérience professionnelle et faciliter sa recherche d'alternance.
+1.2 Objectifs
+
+Présenter les compétences techniques et projets réalisés
+Mettre en avant le profil professionnel et la personnalité du développeur
+Faciliter la prise de contact par des recruteurs potentiels
+Créer une vitrine professionnelle attractive et fonctionnelle
+
+2. Public cible
+
+Recruteurs et entreprises proposant des alternances
+Professionnels du développement web
+Clients potentiels pour des projets freelance
+
+3. Spécifications techniques
+3.1 Technologies utilisées
+
+HTML5
+CSS3
+PHP
+JavaScript
+Tailwind CSS (version 2.2.19)
+EmailJS pour la gestion du formulaire de contact
+
+3.2 Structure du site
+Le site est structuré en plusieurs pages PHP :
+
+Page d'accueil (index.php)
+Page "À propos" (à_propos.php)
+Page de contact (contact.php)
+Pages détaillées des projets :
+
+MY_CINEMA (my_cinema.php)
+MY_MEETIC (my_meetic.php)
+PUISSANCE 4 (puissance4.php)
+TWEET_ACADEMIE (à compléter)
+
+
+
+3.3 Compatibilité
+
+Compatible avec tous les navigateurs modernes
+Design responsive pour adaptation mobile, tablette et desktop
+Optimisation pour différentes résolutions d'écran
+
+4. Fonctionnalités à développer
+4.1 Fonctionnalités actuelles
+
+Navigation entre les pages
+Texte défilant sur chaque page
+Présentation des projets sur la page d'accueil avec animations au scroll
+Formulaire de contact avec envoi d'email via EmailJS
+Page "À propos" avec informations personnelles
+
+4.2 Fonctionnalités à ajouter ou améliorer
+
+Pages de projets : Compléter les pages de détail de chaque projet avec :
+
+Descriptions détaillées
+Captures d'écran
+Technologies utilisées (avec logos)
+Liens vers les dépôts GitHub
+Démos interactives si possible
+
+
+Galerie d'images : Ajouter une galerie pour chaque projet
+Téléchargement de CV : Implémenter un bouton pour télécharger le CV
+Animation et interactivité :
+
+Améliorer les animations de la page d'accueil
+Ajouter des transitions entre les pages
+Créer une interface plus interactive
+
+
+Optimisation SEO :
+
+Méta-descriptions
+Balises title adaptées
+Structure des headings
+Textes alternatifs pour les images
+
+
+
+5. Design et UI/UX
+5.1 Charte graphique
+
+Couleurs :
+
+Fond principal : Blanc/Gris clair
+Accents : Bleu (#4682B4), Vert (seagreen)
+Texte : Noir/Gris foncé, Blanc sur fonds colorés
+
+
+Typographie :
+
+Police principale : Celle définie par Tailwind (sans-serif)
+Titres : Gras (font-bold)
+Corps de texte : Regular, tailles variables selon l'importance
+
+
+
+5.2 Éléments d'interface à améliorer
+
+Bannières de projet : Ajouter des images représentatives dans les sections de présentation des projets
+Header : Moderniser et rendre plus attractif
+Footer : Améliorer la présentation des liens sociaux, ajouter des icônes
+Formulaire de contact : Ajouter des feedbacks visuels lors de la soumission
+
+6. Contenu à développer
+6.1 Textes à rédiger
+
+Descriptions détaillées de chaque projet (remplacer le Lorem Ipsum)
+Présentation plus approfondie des compétences techniques
+Textes de présentation pour la section "À propos"
+
+6.2 Ressources graphiques à créer
+
+Logo personnel (pour remplacer "_TS")
+Captures d'écran de qualité pour chaque projet
+Icônes pour les technologies maîtrisées
+Photo de profil professionnelle
+
+7. Fonctionnalités du formulaire de contact
+7.1 Validation
+
+Validation des champs obligatoires
+Validation du format d'e-mail
+Protection anti-spam
+
+7.2 Traitement des données
+
+Configuration EmailJS pour l'envoi des messages
+Confirmation visuelle après envoi
+Message d'erreur en cas d'échec
+
+8. Améliorations techniques
+8.1 Performance
+
+Optimisation des images
+Minification des fichiers CSS/JS
+Mise en cache des ressources statiques
+
+8.2 Sécurité
+
+Protection contre les injections SQL
+Protection CSRF pour le formulaire
+Filtrage des entrées utilisateur
+
+9. Planning de développement
+Phase 1 : Finalisation de la structure
+
+Compléter les pages de projets
+Finaliser la navigation
+Implémenter les animations manquantes
+
+Phase 2 : Contenu et design
+
+Rédaction des textes définitifs
+Intégration des images et ressources graphiques
+Amélioration de l'interface utilisateur
+
+Phase 3 : Fonctionnalités avancées
+
+Optimisation du formulaire de contact
+Implémentation des fonctionnalités interactives
+Tests utilisateurs et ajustements
+
+Phase 4 : Déploiement et optimisation
+
+Migration vers un hébergement définitif
+Tests de performance
+Optimisation SEO finale
+
+10. Suivi et maintenance
+
+Mise à jour régulière des projets présentés
+Ajout de nouveaux projets
+Actualisation des informations de contact et du CV
+Surveillance des performances et de la sécurité
+

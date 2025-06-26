@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Portfolio - TEA Steven</title>
+</head>
+
+<body>
+    <header>
+        <div class="mt-5">
+            <ul class="flex justify-around">
+                <li>
+                    <a class="font-bold text-2xl" href="./index.php">_TS</a>
+                </li>
+                <li>
+                    <a class="text-lg text-black-500 hover:underline mr-4" href="./à_propos.php">À propos</a>
+                    <a class="text-lg text-black500 hover:underline" href="./contact.php">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <p class="txt-defilant">
+            SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC SNAPCHOC
+        </p>
+    </div>
+    <div class="scroll-container">
+        <section class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Technologies utilisées</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-4">
+                            <span class="font-bold text-lg text-black-400 flex justify-center mb-2">Frontend</span>
+                            <ul class="list-disc list-inside ml-6 text-gray-600 text-left">
+                                <li><span class="font-semibold">React Native:</span> Framework mobile cross-platform (iOS/Android)</li>
+                                <li><span class="font-semibold">JavaScript ES6+:</span> Logique applicative et composants</li>
+                                <li><span class="font-semibold">React Navigation:</span> Gestion de la navigation entre écrans</li>
+                                <li><span class="font-semibold">AsyncStorage:</span> Stockage local des données utilisateur</li>
+                                <li><span class="font-semibold">Camera API:</span> Accès à la caméra du smartphone</li>
+                                <li><span class="font-semibold">Tailwind CSS:</span> Framework CSS utility-first</li>
+                                <li><span class="font-semibold">Image Picker:</span> Sélection d'images depuis la galerie</li>
+                                <li><span class="font-semibold">State Management:</span> Gestion d'état avec React Hooks</li>
+                            </ul>
+                            <div class="mt-4">
+                            <span class="font-bold text-lg text-black-400 flex justify-center mb-2">Backend</span>
+                            </div>
+                            <ul class="list-disc list-inside ml-6 text-gray-600 text-left">
+                                <li><span class="font-semibold">API REST:</span> Intégration avec l'API fournie</li>
+                                <li><span class="font-semibold">HTTP Requests:</span> Fetch API pour les appels réseau</li>
+                                <li><span class="font-semibold">JSON:</span> Format d'échange de données</li>
+                                <li><span class="font-semibold">Authentification JWT:</span> Gestion sécurisée des sessions</li>
+                                <li><span class="font-semibold">Upload d'images:</span> Envoi de fichiers multimédia</li>
+                                <li><span class="font-semibold">Expo:</span> Plateforme de développement et déploiement</li>
+                            </ul>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Fonctionnalités principales</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-4 text-left">
+                            <ul class="list-disc list-inside ml-6 space-y-4">
+                                <li>Inscription et connexion utilisateur</li>
+                                <li>Gestion de session sécurisée</li>
+                                <li>Protection des pages privées</li>
+                                <li>Prise de photo ou sélection galerie</li>
+                                <li>Choix du destinataire et durée d'affichage</li>
+                                <li>Upload vers l'API</li>
+                                <li>Affichage des snaps reçus</li>
+                                <li>Lecture temporisée avec suppression automatique</li>
+                                <li>Synchronisation avec le serveur</li>
+                            </ul>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-400">Durée de production</h2>
+                    <p class="text-gray-700 text-lg">2 semaines</p>
+                </div>
+            </div>
+            <div class="mt-8 flex justify-center">
+                <a href="https://github.com/stvntea/Snapchoc" target="_blank" class="inline-block bg-gray-800 text-white px-3 py-1 rounded-lg shadow hover:bg-gray-700 transition">
+                    Voir le projet sur GitHub
+                </a>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-gray-400 text-white py-6">
+        <p class="text-xl font-semibold text-center mb-4">_CONTACT : anthonysteven.tea@gmail.com</p>
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com/stvntea" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/steven-tea-71b20a166/" target="_blank" class="hover:text-gray-600">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
