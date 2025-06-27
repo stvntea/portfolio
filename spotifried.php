@@ -77,7 +77,7 @@
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-6">
                     <h2 class="text-2xl font-bold mb-4 text-gray-400">Durée de production</h2>
-                    <p class="text-gray-700 text-lg">1 semaines</p>
+                    <p class="text-gray-700 text-lg">1 semaine</p>
                 </div>
             </div>
             <div class="mt-8 flex justify-center">
