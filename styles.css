@@ -84,6 +84,11 @@ body {
     margin: 1rem;
 }
 
+.scroll-container:first-of-type .scroll-element {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 @media screen and (max-width: 650px) {
 
     .scroll-container,
